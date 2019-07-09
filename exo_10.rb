@@ -1,4 +1,6 @@
-annee_ref = 2017
-puts "Quel est votre année de naissance ?"
-annee_naiss = gets.chomp.to_i
-puts "Vous aviez #{annee_ref - annee_naiss} ans en 2017"
+puts "En quelle année êtes-vous né.e ?"
+
+birth_year = gets.chomp
+
+
+puts "Votre âge est donc de : #{2017 - birth_year.to_i} an.s"

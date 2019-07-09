@@ -1,6 +1,7 @@
-puts"Quel est ton nombre préféré ?"
-number = gets.chomp.to_i
+puts "Pouvez-vous me donner un nombre, svp ?"
 
-number.times do |i|
-  puts i
-end
+number = gets.chomp
+
+number.to_i.times do |i|
+  puts "#{i}"
+ end

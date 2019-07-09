@@ -1,2 +1,2 @@
-puts "Salut, ça farte?
-#il manque les guillemets à la fin
+puts "Salut, ça farte ?
+#Une des guillemets n'est pas fermée
